@@ -9,7 +9,6 @@
   import whitewolf from '$lib/images/white_wolf.svg';
   import witch from '$lib/images/witch.svg';
   import talkativewolf from '$lib/images/talkative_wolf.svg';
-  import back from '$lib/images/back.png';
   import { onMount } from 'svelte';
 
   let step = 'setup'; // setup, reveal-mode, manual-entry, reveal, gm, voyante
@@ -326,7 +325,7 @@
           {/if}
               {a.role}
             {:else}
-              <strong>{a.name}</strong><br /><img src={back} alt="Image" />
+              <strong>{a.name}</strong><br />
             {/if}
           </div>
         {/each}
