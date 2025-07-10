@@ -28,7 +28,7 @@
     "Garde": 0,
     "Cupidon": 0
   };
-
+ 
   let assignments = [];
   let currentRevealIndex = 0;
   let showModal = false;
@@ -37,8 +37,7 @@
   let loupBavardMot = '';
 
   const motsBavards = [
-    "Citrouille", "Chaussette", "Grenouille", "Cactus", "Croissant",
-    "Pastèque", "Licorne", "Pamplemousse", "Écureuil", "Baguette"
+    "Wallah", "Frere", "Wesh", "Baguette", "Bipolaire", "Chocolatine", "Sah", "Nuit", "Marine Lepen", "Macron", "Pied" 
   ];
 
   function validateAndChooseMode() {
